@@ -1,33 +1,33 @@
 # Abbreviations in program codes
 
-Here is a list of **common**, **standard** and **well-known** abbreviation which you can find in program codes. 
+Here is a list of **common**, **standard** and **well-known** abbreviations which you can find in program code. 
 
 A good abbreviation is:
-* **clear** if you see it at first time you will know what it means (*nl* for *name list* is not good)
+* **clear** if you see it for the first time you will know what it means (*nl* for *name list* is not good)
 * **shorter** taking out one letter is not a real abbreviation (like *cpy* for *copy*)
-* **non-context sensitive** like *r* for radius is straightforward only if you speak about circles
+* **not context-sensitive** like *r* for radius is straightforward only if you are talking about circles
 
 ### Goal
-Give a good name to your variables, functions, classes, files etc. is a very difficult task. Using long names (e.g. number_of_connected_clients) are always clear but it needs an extra time to read and harder to remember. Therefore choose a shorter form if possible but be careful to keep your names meaningful and clear.
+Giving a good name to your variables, functions, classes, files, etc. is a very difficult task. Using long names (e.g. number_of_connected_clients) is always clear but it takes longer to read and is harder to remember. Therefore choose a shorter form if possible but be careful to keep your names meaningful and clear.
 
-Keep in mind as your scope getting bigger (from very local to API) you should choose more descriptive names. For example *res* is good to check the result of something in the next line. However if it's a global variable then *log_save_res* is more appropriate.
+Keep in mind as your scope getting bigger (from very local to API) you should choose more descriptive names. For example, *res* is good to check the result of something in the next line. However, if it's a global variable then *log_save_res* is more appropriate.
 
 When speaking about API then establish a pattern of naming. 
 For example in C: `namespace + module + action + object` (gui_label_set_text)
 
-If you are using only these abbreviations your naming become more coherent, logical and understandable by other (even novice) programmers. Use the *context sensitive (italic)* abbreviations only in their context and avoid the ~~not recommended~~ (strike through) abbreviations because they are not clear or useless.
+If you are using only these abbreviations your naming becomes more coherent, logical, and understandable by other (even novice) programmers. Use the *context-sensitive (italic)* abbreviations only in their context and avoid the ~~not recommended~~ (strike through) abbreviations because they are not clear or useless.
 
-Of course you can judge the not recommended abbreviations. For example why don't use *txt* insted of *text*? It's still clear but in my opinion not shorter enough. The only important thing is to remain consitent in your code (do not mix *txt* with *text*).
+Of course you can judge the not recommended abbreviations. For example why not use *txt* instead of *text*? It's still clear but in my opinion not shorter enough. The only important thing is to remain consistent in your code (do not mix *txt* with *text*).
 
 ### Contributing
 * Please, create an issue or pull request to add new abbreviations or modify the existing ones.
 * Formatting rules:
   * **abr** straightforward abbreviations (`* **key** meaning`)
-  * _**abr** context sensitive abbreviations_ (`* _**key** meaning_`)
+  * _**abr** context-sensitive abbreviations_ (`* _**key** meaning_`)
   * ~~**abr** not recommended abbreviations~~ (`* ~~**key** meaning~~`)
-* Do not list here acronyms (like RAM, CPU, SQL)
-* Keep alphabetic order
-  
+* Do not list acronyms here (like RAM, CPU, SQL)
+* Keep alphabetical order
+
 ## 0..9
 * **2** to (e.g. copy2mem) 
   
@@ -112,7 +112,7 @@ Of course you can judge the not recommended abbreviations. For example why don't
 ## G
 * _**ge** greater or equal_
 * **gen** generate
-* _**gt** greater then_
+* _**gt** greater than_
 
 ## H
 * _**h** height_
@@ -143,7 +143,7 @@ Of course you can judge the not recommended abbreviations. For example why don't
 * **lib** library
 * _**le** less or equal_
 * **len** length
-* ~~**ll**~~ (could be linked list or less then)
+* ~~**ll**~~ (could be linked list or less than)
 * _**lon** longitude_
 
 ## M
